@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>NOVA X - eSport Organization</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- AOS Animations -->
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css" rel="stylesheet">
+  <!-- Fonts & Icons -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@700&display=swap" rel="stylesheet">
+  <!-- Style -->
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Orbitron', sans-serif;
+      background: #0f0f0f;
+      color: white;
+    }
+
+    header {
+      background: linear-gradient(90deg, #ff0000, #990000);
+      padding: 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      margin: 0;
+      font-size: 3rem;
+      color: #000;
+    }
+
+    nav {
+      background: #111;
+      display: flex;
+      justify-content: center;
+      padding: 10px 0;
+    }
+
+    nav a {
+      margin: 0 20px;
+      color: #ff4444;
+      text-decoration: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    nav a:hover {
+      color: #fff;
+    }
+
+    .section {
+      padding: 80px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    .section h2 {
+      text-align: center;
+      font-size: 2.5rem;
+      margin-bottom: 40px;
+    }
+
+    .card {
+      background: #1a1a1a;
+      padding: 30px;
+      border-radius: 15px;
+      margin-bottom: 30px;
+      box-shadow: 0 0 15px #ff000044;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      background: #111;
+      font-size: 0.9rem;
+      color: #777;
+    }
+  </style>
+</head>
+<body>
+
+  <header data-aos="fade-down">
+    <h1>NOVA X</h1>
+    <p style="font-size: 1.2rem;">Where legend are forged - eSport Excellence</p>
+  </header>
+
+  <nav data-aos="fade-up">
+    <a href="#team">Team</a>
+    <a href="#tournaments">Tournaments</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section id="team" class="section" data-aos="fade-right">
+    <h2>Il Team</h2>
+    <div class="card">
+      <p>Il nostro roster competitivo copre titoli come Valorant, e Rainbow Six Siege. Ogni giocatore è selezionato per talento e dedizione.</p>
+    </div>
+  </section>
+
+  <section id="tournaments" class="section" data-aos="fade-left">
+    <h2>Eventi & Tornei</h2>
+    <div class="card">
+      <p>Partecipa ai nostri tornei mensili oppure segui i nostri eventi live su Twitch. NOVA X è sempre in prima linea nella scena competitiva italiana.</p>
+    </div>
+  </section>
+
+  <section id="contact" class="section" data-aos="zoom-in">
+    <h2>Contattaci</h2>
+    <div class="card">
+      <p>Scrivici per collaborazioni, reclutamento o sponsorizzazioni a: <strong>nova.x.staff@gmail.com</strong></p>
+    </div>
+  </section>
+
+  <footer>
+    © <?= date("Y") ?> NOVA X eSport. All rights reserved.
+  </footer>
+
+  <!-- AOS Script -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+  <script>
+    AOS.init({ duration: 1000 });
+  </script>
+</body>
+</html>
