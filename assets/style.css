@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@500&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Cinzel', serif;
+  background: #0f0f0f;
+  color: white;
+}
+
+.banner {
+  background: url("../img/banner.png") center center / cover no-repeat;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.banner-text {
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.banner h1 {
+  font-size: 3rem;
+  color: white;
+  margin: 0;
+}
+
+.banner p {
+  font-size: 1.2rem;
+  color: #ff0000;
+  margin: 0;
+}
+
+nav {
+  background: #111;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px 0;
+}
+
+.nav-tagline {
+  width: 100%;
+  text-align: center;
+  font-size: 1.2rem;
+  color: #ffffff;
+  padding: 10px;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ff0000;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+nav a:hover {
+  color: #fff;
+}
+
+.section {
+  padding: 80px 20px;
+  max-width: 1000px;
+  margin: auto;
+}
+
+.section h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.card {
+  color: red;
+  background: #1a1a1a;
+  padding: 30px;
+  border-radius: 15px;
+  margin-bottom: 30px;
+  box-shadow: 0 0 15px #ff000044;
+}
+
+a {
+  color: white
+}
+
+a:active {
+  color: #ffffff;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111;
+  font-size: 0.9rem;
+  color: #777;
+}
